@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виктор Мурахин - QA Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="editable" data-field="hero.name">Виктор Мурахин</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <button class="admin-btn" id="adminBtn">Админ</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title typing-animation">
+                <span class="editable" data-field="hero.name">Виктор Мурахин</span>
+            </h1>
+            <h2 class="hero-subtitle">
+                <span class="editable" data-field="hero.title">QA Engineer</span>
+            </h2>
+            <p class="hero-description">
+                <span class="editable" data-field="hero.description">Страстный тестировщик, стремящийся к созданию качественного программного обеспечения</span>
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn--primary">Связаться</a>
+                <a href="#projects" class="btn btn--outline">Мои проекты</a>
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О себе</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="editable" data-field="about.text">
+                        Я начинающий QA специалист с техническим образованием и страстью к обеспечению качества программного обеспечения. Изучаю современные методологии тестирования, инструменты автоматизации и стремлюсь развиваться в сфере контроля качества.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="editable" data-field="about.experience">6 месяцев</span>
+                        </div>
+                        <div class="stat-label">Изучения QA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="editable" data-field="about.projects">5+</span>
+                        </div>
+                        <div class="stat-label">Учебных проектов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Мотивации</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Навыки</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <div class="skill-item" data-skill="Мануальное тестирование" data-level="75">
+                    <div class="skill-header">
+                        <span class="skill-name editable" data-field="skills.0.name">Мануальное тестирование</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Тест-кейсы" data-level="70">
+                    <div class="skill-header">
+                        <span class="skill-name editable" data-field="skills.1.name">Тест-кейсы</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Баг-репорты" data-level="80">
+                    <div class="skill-header">
+                        <span class="skill-name editable" data-field="skills.2.name">Баг-репорты</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="API тестирование" data-level="60">
+                    <div class="skill-header">
+                        <span class="skill-name editable" data-field="skills.3.name">API тестирование</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="SQL" data-level="50">
+                    <div class="skill-header">
+                        <span class="skill-name editable" data-field="skills.4.name">SQL</span>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="Автоматизация" data-level="40">
+                    <div class="skill-header">
+                        <span class="skill-name editable" data-field="skills.5.name">Автоматизация</span>
+                        <span class="skill-percentage">40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="40"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h3 class="tools-title">Инструменты</h3>
+                <div class="tools-grid" id="toolsGrid">
+                    <div class="tool-item">
+                        <div class="tool-icon">🔧</div>
+                        <span class="tool-name editable" data-field="tools.0.name">Postman</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🐛</div>
+                        <span class="tool-name editable" data-field="tools.1.name">Jira</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">📋</div>
+                        <span class="tool-name editable" data-field="tools.2.name">TestRail</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🛠️</div>
+                        <span class="tool-name editable" data-field="tools.3.name">Chrome DevTools</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">📚</div>
+                        <span class="tool-name editable" data-field="tools.4.name">Git</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon">🤖</div>
+                        <span class="tool-name editable" data-field="tools.5.name">Selenium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Проекты</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-project="0">
+                    <div class="project-header">
+                        <h3 class="project-title editable" data-field="projects.0.title">Тестирование веб-приложения</h3>
+                        <span class="project-status status--success">Завершен</span>
+                    </div>
+                    <p class="project-description editable" data-field="projects.0.description">
+                        Полное функциональное тестирование интернет-магазина с созданием тест-кейсов и баг-репортов
+                    </p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">Manual Testing</span>
+                        <span class="tech-tag">TestRail</span>
+                        <span class="tech-tag">Jira</span>
+                    </div>
+                </div>
+                <div class="project-card" data-project="1">
+                    <div class="project-header">
+                        <h3 class="project-title editable" data-field="projects.1.title">API тестирование</h3>
+                        <span class="project-status status--warning">В процессе</span>
+                    </div>
+                    <p class="project-description editable" data-field="projects.1.description">
+                        Автоматизированное тестирование REST API с помощью Postman и Newman
+                    </p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">Postman</span>
+                        <span class="tech-tag">Newman</span>
+                        <span class="tech-tag">API Testing</span>
+                    </div>
+                </div>
+                <div class="project-card" data-project="2">
+                    <div class="project-header">
+                        <h3 class="project-title editable" data-field="projects.2.title">Автоматизация UI тестов</h3>
+                        <span class="project-status status--info">Планируется</span>
+                    </div>
+                    <p class="project-description editable" data-field="projects.2.description">
+                        Создание автоматизированных тестов для веб-интерфейса с использованием Selenium
+                    </p>
+                    <div class="project-technologies">
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">pytest</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value editable" data-field="contact.email">victor.murahin@email.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Телефон</span>
+                            <span class="contact-value editable" data-field="contact.phone">+7 (999) 123-45-67</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value editable" data-field="contact.linkedin">linkedin.com/in/victormurahin</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📄</div>
+                        <div class="contact-details">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value editable" data-field="contact.github">github.com/victormurahin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Login Modal -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Вход в систему управления</h3>
+                <button class="modal-close" id="modalCloseBtn">&times;</button>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label class="form-label" for="username">Логин</label>
+                    <input type="text" id="username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="password">Пароль</label>
+                    <input type="password" id="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">Войти</button>
+            </form>
+            <div id="loginError" class="login-error hidden">
+                Неверные учетные данные!
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel -->
+    <div id="adminPanel" class="admin-panel hidden">
+        <div class="admin-header">
+            <span>Режим редактирования активен</span>
+            <button id="logoutBtn" class="btn btn--outline btn--sm">Выйти из админа</button>
+        </div>
+        <div class="admin-instructions">
+            Двойной клик по тексту для редактирования
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification hidden">
+        <span id="notificationText"></span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
